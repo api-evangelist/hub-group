@@ -1,7 +1,15 @@
 aid: hub-group
-url: https://raw.githubusercontent.com/api-evangelist/hub-group/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/hub-group/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.hub-group.com
+description: >-
+  HUB is a global leader in multifunction pole design and street infrastructure, supplying
+  over 1,000 pieces of urban infrastructure worldwide. With 20+ years of experience,
+  HUB excels in integrating digital devices and data analytics into innovative urban
+  solutions. Partnered with Valmont Industries, HUB delivers high-quality infrastructure
+  for public spaces. Contact HUB for exceptional design and functionality that enhances
+  urban environments.
