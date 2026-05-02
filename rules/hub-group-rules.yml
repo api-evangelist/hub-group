@@ -1,0 +1,38 @@
+aid: hub-group:hub-group-rules
+name: HUB Group Rules
+description: >-
+  Operating rules and guidelines for tracking HUB Group developer and
+  integration resources as they become available.
+type: Rules
+tags:
+  - Infrastructure
+  - Smart City
+  - Rules
+rules:
+  - name: Confirm Public Availability
+    description: >-
+      Before publishing any HUB Group API or integration as a property,
+      confirm the resource is publicly available rather than gated behind
+      private customer portal access.
+  - name: Respect Customer Portal Boundaries
+    description: >-
+      Customer portal endpoints are not public APIs. Do not document them
+      in apis.yml unless HUB Group has explicitly published developer
+      documentation for the underlying service.
+  - name: Track Smart City Integrations
+    description: >-
+      Watch for IoT, sensor, and data analytics integrations connected to
+      HUB multifunction poles. These are the most likely sources of
+      future API surfaces.
+  - name: Cite Authoritative Sources
+    description: >-
+      Pull descriptions and specifications from the official HUB Group
+      website or co branded Valmont Industries materials rather than
+      third party summaries.
+  - name: Update Modified Date On Change
+    description: >-
+      Whenever apis.yml is updated, set the modified field to the current
+      date so downstream tooling can detect changes.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
