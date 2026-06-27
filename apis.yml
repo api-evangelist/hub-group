@@ -31,7 +31,7 @@ common:
     url: https://www.hub-group.com
   - type: Rules
     url: rules/hub-group-rules.yml
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://hub-group.com/llms.txt
 maintainers:
   - FN: Kin Lane
