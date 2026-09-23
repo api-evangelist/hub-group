@@ -1,7 +1,9 @@
 ---
 title: Supply Chain Logistics Technology
 url: https://www.hubgroup.com/supply-chain-logistics-technology/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hub Group" press release artificial intelligence'
 position: 4
 source: serpapi-google
